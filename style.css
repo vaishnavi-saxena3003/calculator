@@ -1,0 +1,27 @@
+button,
+input[type='button'] {
+  margin: 4px auto;
+}
+
+.inputNumber {
+  background-color: rgb(231, 227, 227);
+  color: #333;
+  fill: antiquewhite;
+  width: 19%;
+  display: block;
+  margin: 0 auto;
+}
+body {
+  background-color: rgb(125, 165, 246);
+}
+
+.operations {
+  width: 20%;
+  display: block;
+  background-color: rgb(152, 142, 142);
+  color: #333;
+  fill: antiquewhite;
+
+  margin: 0 auto;
+  text-align: center;
+}

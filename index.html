@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>level 1 task 3</h1>
+    <h2 id="heading">Simple Calculator</h2>
+
+    <div>
+      <input type="number" class="inputNumber" placeholder="00" />
+    </div>
+
+    <div class="operations">
+      <button onclick="handleBtnClick(event)" value="7">7</button>
+      <button onclick="handleBtnClick(event)" value="8">8</button>
+      <button onclick="handleBtnClick(event)" value="9">9</button>
+      <input type="button" class="divide" value="/" onclick="handleDivide()" />
+      <br />
+      <button onclick="handleBtnClick(event)" value="4">4</button>
+      <button onclick="handleBtnClick(event)" value="5">5</button>
+      <button onclick="handleBtnClick(event)" value="6">6</button>
+      <input
+        type="button"
+        class="multiply"
+        value="*"
+        onclick="handleMultiply()"
+      />
+      <br />
+      <button onclick="handleBtnClick(event)" value="1">1</button>
+      <button onclick="handleBtnClick(event)" value="2">2</button>
+      <button onclick="handleBtnClick(event)" value="3">3</button>
+      <input
+        type="button"
+        class="subtract"
+        value="-"
+        onclick="handleSubtract()"
+      />
+      <br />
+      <button onclick="handleBtnClick(event)" value="4">0</button>
+      <input type="button" value="=" onclick="handleCalculate()" />
+      <!-- <input type="button" class="reset" value="ac" onclick="handleReset()" /> -->
+      <input type="button" class="add" value="+" onclick="handleAdd()" />
+
+      <input type="button" class="reset" value="ac" onclick="handleReset()" />
+    </div>
+
+    <script src="svcript.js"></script>
+  </body>
+</html>
